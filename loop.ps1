@@ -4,5 +4,3 @@ do {
     Sleep 60
     $i--
 } while ($i -gt 0)
-© 2022 GitHub, Inc.
-Terms
