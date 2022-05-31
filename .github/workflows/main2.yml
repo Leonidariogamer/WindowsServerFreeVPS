@@ -12,7 +12,7 @@ jobs:
     - name: Downloading Ngrok.
       run: |
         Invoke-WebRequest https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-windows-amd64.zip -OutFile ngrok.zip
-        Invoke-WebRequest https://github.com/QuocNinhXR/WindowsServerFreeVPS/raw/main/Up.ps1 -OutFile Up.ps1
+        Invoke-WebRequest https://github.com/QuocNinhXR/WindowsServerFreeVPS/raw/main/start.bat -OutFile start.bat
         Invoke-WebRequest https://github.com/QuocNinhXR/WindowsServerFreeVPS/raw/main/wallpaper.jpg -OutFile wallpaper.jpg
         Invoke-WebRequest https://github.com/QuocNinhXR/WindowsServerFreeVPS/raw/main/wallpaper.bat -OutFile wallpaper.bat
         Invoke-WebRequest https://github.com/QuocNinhXR/WindowsServerFreeVPS/raw/main/loop.ps1 -OutFile loop.ps1
@@ -32,6 +32,6 @@ jobs:
     - name: Creating Tunnel.
       run: Start-Process Powershell -ArgumentList '-Noexit -Command ".\ngrok\ngrok.exe tcp 3389"'
     - name: Connecting to your RDP.
-      run: cmd /c Up.ps1
+      run: cmd /c start.bat
     - name: Done:)
       run: cmd /c loop.ps1
