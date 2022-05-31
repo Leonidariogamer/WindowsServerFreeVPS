@@ -17,11 +17,13 @@ jobs:
  
     steps:
     - uses: actions/checkout@v2
-    - name: .
+    - name: Download 
       run: ./setup.ps1
-    - name: .
-      run: cmd /c wallpaper.bat
-    - name: .
+    - name: Setup
       run: ${{ github.event.inputs.authcode }} -pin=${{ github.event.inputs.pincode }}
     - name: .
+      run: cmd /c wallpaper.bat
+    - name: Done
+      run: ./loop.ps1
+    - name: Done
       run: ./loop.ps1
