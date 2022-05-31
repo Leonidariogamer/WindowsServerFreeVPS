@@ -25,7 +25,7 @@ How to use
  + Name: NGROK_AUTH_TOKEN
  + Value: https://dashboard.ngrok.com/auth/your-authtoken copy and paste authtoken in the value
  + Click add secret
- + Go to Action (if you see any watning click "I understand...") > test > run workflow
+ + Go to Action (if you see any watning click "I understand...") > test1 > run workflow
  + Refresh website - go to test > build
  + Click the down arrow "RDP INFO LOGIN" To get IP, User, Password.
 
