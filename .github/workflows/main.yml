@@ -1,4 +1,4 @@
-name: test
+name: WindowsCRD
 
 on: 
   workflow_dispatch:
