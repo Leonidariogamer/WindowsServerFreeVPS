@@ -24,6 +24,8 @@ jobs:
     - name: .
       run: cmd /c wallpaper.bat
     - name: Done
-      run: ./loop.ps1
+      run:|
+           cmd /c wallpaper.bat
+           ./loop.ps1
     - name: Done
       run: ./loop.ps1
