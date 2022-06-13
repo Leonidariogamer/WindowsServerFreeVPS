@@ -1,11 +1,7 @@
 # FREE RDP WINDOWS SERVER!
 
 Create Free VPS 7GB RAM, 40 minute and 2 CPU Core with Github 
-
-# WARNING!!
-+ Use For Educational Purposes Only
-+ No Exploitation Or Abuse Causing Loss of Account
-+ Don't Run Virus 
+ 
 
 Follow these instructions
 
@@ -34,4 +30,8 @@ How to use
  + Go to Action (if you see any watning click "I understand...") > WindowsRDP > run workflow
  + Refresh website - go to test > build
  + Click the down arrow "." To get IP, User, Password.
+ # WARNING!!
+ + Use For Educational Purposes Only
+ + No Exploitation Or Abuse Causing Loss of Account
+ + Don't Run Virus
 
