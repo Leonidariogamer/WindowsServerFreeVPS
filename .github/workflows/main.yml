@@ -9,6 +9,7 @@ on:
       pincode:
         description: 'Six digit Pin'
         required: true
+        default: '123456'
   
 jobs:
   build:
